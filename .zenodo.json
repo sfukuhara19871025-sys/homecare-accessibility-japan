@@ -1,0 +1,26 @@
+{
+  "title": "Home-care accessibility in Japan: open-source geospatial workflow",
+  "upload_type": "software",
+  "description": "Consolidated R/OSRM workflow accompanying a nationwide cross-sectional geospatial informatics assessment of potential accessibility to home-care support facilities in Japan, comparing the 16-km criterion with road-network travel-time scenarios and including network-snapping, same-facility, and diagnostic CSIS address-matching quality-control workflows. JMAP-derived facility-level data are not redistributed; synthetic demonstration inputs are included.",
+  "creators": [
+    {
+      "name": "Fukuhara, Satoshi"
+    },
+    {
+      "name": "Ono, Yohei"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "OSRM",
+    "geospatial informatics",
+    "home care",
+    "spatial accessibility",
+    "Japan",
+    "reproducibility",
+    "geocoding quality control"
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-09-29",
+  "access_right": "open"
+}
