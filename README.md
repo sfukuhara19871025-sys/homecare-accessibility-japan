@@ -1,5 +1,7 @@
 # Home-care accessibility in Japan: open-source geospatial workflow
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23029388.svg)](https://doi.org/10.5281/zenodo.23029388)
+
 This repository contains the consolidated six-script computational workflow accompanying the manuscript **“Open-source geospatial informatics assessment of potential accessibility to home-care support facilities in Japan: a nationwide cross-sectional comparison of the 16-km criterion with road-network travel time.”**
 
 The public workflow preserves the computational logic used in the study while removing local absolute paths and consolidating intermediate correction/QC scripts into the final production scripts. **JMAP-derived facility-level data are not redistributed.** The repository includes synthetic example data so that users can inspect the required schemas and exercise the workflow without access to the restricted facility dataset.
@@ -77,9 +79,13 @@ The study accumulated 12 analysis/QC scripts during development. The public six-
 
 ## Citation / Zenodo release
 
-Version `v1.0.0` is prepared for GitHub release and Zenodo archival with a release date of 2026-09-29. `CITATION.cff` and `.zenodo.json` contain the release metadata used for archiving.
+Version `v1.0.0` was released on 2026-09-29 and archived in Zenodo.
 
-The v1.0.0 package intentionally retains `TO_BE_ADDED_AFTER_ZENODO_RELEASE` as the repository/DOI placeholder because a DOI does not exist until Zenodo mints it. After DOI assignment, add the DOI to the manuscript Data Availability statement and the GitHub default-branch README. Do not rewrite or retag the archived `v1.0.0` release solely to insert its own DOI; use the DOI in subsequent repository metadata/releases as appropriate.
+**Zenodo DOI:** [10.5281/zenodo.23029388](https://doi.org/10.5281/zenodo.23029388)
+
+**GitHub repository:** https://github.com/sfukuhara19871025-sys/homecare-accessibility-japan
+
+If you use this software, please cite the archived Zenodo release. The archived `v1.0.0` release should remain unchanged; subsequent code changes should be issued as a new tagged GitHub release and Zenodo version.
 
 ## Important interpretation
 
