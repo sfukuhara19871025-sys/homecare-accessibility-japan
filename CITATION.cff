@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and the archived software release."
+title: "Home-care accessibility in Japan: open-source geospatial workflow"
+type: software
+authors:
+  - family-names: Fukuhara
+    given-names: Satoshi
+  - family-names: Ono
+    given-names: Yohei
+version: 1.0.0
+date-released: 2026-09-29
+license: MIT
+abstract: >-
+  Six-script R/OSRM workflow for nationwide potential spatial accessibility
+  analyses comparing a 16-km criterion with road-network travel-time scenarios,
+  including unique-centroid QC, population weighting, network-snapping
+  sensitivity analyses, same-facility rerouting, and diagnostic CSIS
+  address-matching quality-control summaries.
