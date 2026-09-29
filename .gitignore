@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+__MACOSX/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large/raw routing data
+*.osm.pbf
+*.osrm
+*.osrm.*
+
+# Study data (not redistributed)
+japan_clinic_address_only_csv_matched*.csv
+!example_data/work/japan_clinic_address_only_csv_matched.csv
+japan_population_weighted.gpkg
+!example_data/work/japan_population_weighted.gpkg
+japan_population_mesh_centroids_for_osrm*.csv
+japan_population_mesh_nearest_clinic_16km.csv
+population_mesh_*.csv
+policy_crosswalk_*.csv
+
+# Runtime checkpoints and outputs
+*_progress.rds
+same_facility_osrm_checkpoint.csv
+primary_time_min_facility_snap_checkpoint.csv
+public_pipeline_outputs/
+qc_v1_3/
+paper_outputs_*/
